@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+
+    <!--Page Title-->
+    <title>Home</title>
+
+    <!--Meta Keywords and Description-->
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/favicon.ico" title="Favicon"/>
+
+    <!-- Main CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Namari Color CSS -->
+    <link rel="stylesheet" href="css/namari-color.css">
+
+    <!--Icon Fonts - Font Awesome Icons-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Animate CSS-->
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+    <!--Google Webfonts-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+
+        .videolist:hover {
+            cursor: pointer;
+        }
+
+        .videoed {
+            display: none;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            left: 45%;
+            top: 25%;
+            z-index: 99;
+            border-radius: 100%;
+        }
+
+        .videos {
+            display: none;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            margin-left: -320px;
+            margin-top: -210px;
+            z-index: 100;
+            width: 640px;
+            height: 360px;
+        }
+
+        .vclose {
+            position: absolute;
+            right: 1%;
+            top: 1%;
+            border-radius: 100%;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+<body>
+
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status" class="la-ball-triangle-path">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!--End of Preloader-->
+
+<div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
+    <div class="top-border wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"></div>
+    <div class="right-border wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;"></div>
+    <div class="bottom-border wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"></div>
+    <div class="left-border wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></div>
+</div>
+
+<div id="wrapper">
+
+    <header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
+        <div id="header" class="nav-collapse">
+            <div class="row clearfix">
+                <div class="col-1">
+
+                    <!--Logo-->
+                    <div id="logo">
+
+                        <!--Logo that is shown on the banner-->
+                        <img src="images/logo.png" id="banner-logo" alt="Landing Page"/>
+                        <!--End of Banner Logo-->
+
+                        <!--The Logo that is shown on the sticky Navigation Bar-->
+                        <img src="images/logo-2.png" id="navigation-logo" alt="Landing Page"/>
+                        <!--End of Navigation Logo-->
+
+                    </div>
+                    <!--End of Logo-->
+
+                    <aside>
+
+                        <!--Social Icons in Header-->
+                        <ul class="social-icons">
+                            <li>
+                                <a target="_blank" title="Facebook" href="#">
+                                    <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" title="Google+" href="#">
+                                    <i class="fa fa-google-plus fa-1x"></i><span>Google+</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" title="Twitter" href="">
+                                    <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" title="Instagram" href="">
+                                    <i class="fa fa-instagram fa-1x"></i><span>Instagram</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" title="behance" href="">
+                                    <i class="fa fa-behance fa-1x"></i><span>Behance</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <!--End of Social Icons in Header-->
+
+                    </aside>
+
+                    <!--Main Navigation-->
+                    <nav id="nav-main">
+                        <ul>
+                            <li>
+                                <a href="#banner">Home</a>
+                            </li>
+                            <li>
+                                <a href="#about">About</a>
+                            </li>
+                            <li>
+                                <a href="#short_flim">Film</a>
+                            </li>
+                            <li>
+                                <a href="#special_effect">Effect</a>
+                            </li>
+                            <li>
+                                <a href="#gallery">Gallery</a>
+                            </li>
+                            
+                            <li>
+                                <a href="#clients">Write</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!--End of Main Navigation-->
+
+                    <div id="nav-trigger"><span></span></div>
+                    <nav id="nav-mobile"></nav>
+
+                </div>
+            </div>
+        </div><!--End of Header-->
+
+        <!--Banner Content-->
+        <div id="banner-content" class="row clearfix">
+
+            <div class="col-38">
+
+                <div class="section-heading">
+                    <h1>王嘉艺<br>个人作品集</h1>
+                    <h2><b>【毕业院校】</b><br>中南财经政法大学·中韩新媒体学院·电影学专业<br>
+                        <b>【留学一年】</b><br>韩国东西大学·软件融合学院·数字影像制作专业
+                        <br><b>【个人邮箱】</b><br>wjy980515@163.com
+                    </h2>
+                </div>
+
+                <!--Call to Action-->
+                <a href="index.html" class="button">CONVERT TO ENGLISH</a>
+                <!--End Call to Action-->
+
+            </div>
+
+        </div><!--End of Row-->
+    </header>
+
+    <!--Main Content Area-->
+    <main id="content">
+
+        <!--Introduction-->
+        <section id="about" class="introduction scrollto">
+
+            <div class="row clearfix">
+
+                <div class="col-3">
+                    <div class="section-heading">
+                        <h3>INTRODUCTION</h3>
+                        <h2 class="section-title">作品集主要分为四大类</h2>
+                        <p class="section-subtitle"></p>
+                    </div>
+
+                </div>
+
+                <div class="col-2-3">
+
+                    <!--Icon Block-->
+                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.1s">
+                        <!--Icon-->
+                        <div class="icon">
+                            <i class="fa fa-html5 fa-2x"></i>
+                        </div>
+                        <!--Icon Block Description-->
+                        <div class="icon-block-description">
+                            <h4>影视短片创作</h4>
+                            <p><b>【个人综述】</b>四年内，我完成了10部影视短片创作，在每个项目中不断反复实践，
+                                磨练自己制片、导演、编剧、摄影、录音、剪辑、特效等全方位能力。
+                                <br><b>【职能阐述】</b>影视短片都是以小组合作(4-6人)形式完成，我担任了其中5部短片的制片与编导职务，
+                                项目成绩均获得90+(百分单位制)优秀成绩。<br><b>【精选短片】</b>精选6部创作时侧重点各不相同的短片。</p>
+                        </div>
+                    </div>
+                    <!--End of Icon Block-->
+
+                    <!--Icon Block-->
+                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.3s">
+                        <!--Icon-->
+                        <div class="icon">
+                            <i class="fa fa-bolt fa-2x"></i>
+                        </div>
+                        <!--Icon Block Description-->
+                        <div class="icon-block-description">
+                            <h4>后期特效制作</h4>
+                            <p><b>【项目综述】</b>精选6个项目，主要使用了视频编辑软件(PR)，特效制作软件(AE)，三维动画软件(Maya,C4D,3d Max)，后期合成软件(Nuke)，调色软件(DaVinci Resolve), 音频编辑软件(Pro Tools)等等; 
+                                <br><b>【职能阐述】</b>大多是个人创作，从概念设计、三维建模、特效制作、后期合成四个阶段来完成，
+                                每个项目的侧重点各不相同，均取得优异成绩，其中部分项目获得学院内展示的机会。</p>
+                        </div>
+                    </div>
+                    <!--End of Icon Block-->
+
+                    <!--Icon Block-->
+                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
+                        <!--Icon-->
+                        <div class="icon">
+                            <i class="fa fa-tablet fa-2x"></i>
+                        </div>
+                        <!--Icon Block Description-->
+                        <div class="icon-block-description">
+                            <h4>平面设计</h4>
+                            <p>综合使用了PS、C4D来完成的二维或三维海报和数字场景概念设计。</p>
+                        </div>
+                    </div>
+                    <!--End of Icon Block-->
+
+                    <!--Icon Block-->
+                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
+                        <!--Icon-->
+                        <div class="icon">
+                            <i class="fa fa-rocket fa-2x"></i>
+                        </div>
+                        <!--Icon Block Description-->
+                        <div class="icon-block-description">
+                            <h4>文字写作</h4>
+                            <p>本科期间，完成了2部论文项目，发表了2篇省级期刊；在此精选部分影视作品赏析、文学作品赏析、以及商业数据分析。</p>
+                        </div>
+                    </div>
+                    <!--End of Icon Block-->
+
+                </div>
+
+            </div>
+
+
+        </section>
+        <!--End of Introduction-->
+
+        <!--short_flim-->
+        <aside id="short_flim" class="scrollto text-center" data-enllax-ratio=".2">
+
+            <div class="row clearfix">
+
+                <div class="section-heading">
+                    <h3>SHORT FILM</h3>
+                    <h2 class="section-title">影视短片创作</h2>
+                </div>
+
+                <div>
+                    <!--User Testimonial-->
+                <blockquote class="col-3 testimonial classic">
+                    <div class="videolist" vpath="images/gallery-images/1-cover-1.jpg"
+                         ipath="video/1.mp4">
+                        <img src="images/gallery-images/1-cover-1.jpg"
+                             style="max-height:200px;border-radius:0px"/>
+                        <img src="img/play.png" class="videoed"/>
+                    </div>
+                    <q>当一位古代的将军捡到了一部来自未来的手机，究竟谁是英雄？谁又创造了历史？</q>
+                        <p><b>【职能阐述】</b>我参与了此短片的全程创作，并主要负责美术道具、灯光、录音及后期制作；
+                            在剧本改编时提出观点并被采用，即“架空了时代背景，并将普世的价值观和情感融入于本土化的场景与叙事中”；
+                            对分镜头脚本进行符合时代场景的细节修改；在中期拍摄时，配合进行灯光策划，着重以光影来表现主人公情感上的变化；
+                            在后期制作方面，修补穿帮镜头，并配合剧情高潮置换天空、模拟光线与火焰、制作特效，以及进行剪辑蒙太奇，营造出各种巧合而成就最后的英雄；
+                            最后在音响音效上，通过自然声背景音乐等加强了人物内心情感起伏；
+                        
+                        </p>
+                    <footer>《将军的手机》</footer>
+
+                </blockquote>
+                <!-- End of Testimonial-->
+
+                <!--User Testimonial-->
+                <blockquote class="col-3 testimonial classic">
+                    <div class="videolist" vpath="images/gallery-images/2-cover-1.jpg"
+                         ipath="video/2.mp4">
+                        <img src="images/gallery-images/2-cover-1.jpg"
+                             style="max-height:200px;border-radius:0px"/>
+                        <img src="img/play.png" class="videoed"/>
+                    </div>
+
+                    <q>当一只兔子为了真爱修炼成人后，却摆脱不了身上的皮毛，最终她用什么来抱得美人归？</q>
+                    <p><b>【职能阐述】</b>我担任此广告短片的编导，侧重于产品卖点的表现以及品牌层面的传播；
+                        通过对中国神话人物兔仙的故事元素解构并融入现代社会审美，铺垫出人物痛点，来以古典形态巧妙宣传现代脱毛膏产品，
+                        并配合点晴语来升华产品核心“美丽，应该毫无保留”，不但易于产生视觉效果，也通过不同叙事类型嫁接挪用、角色关系错位等手段，
+                        在创意宣传与大众观影体验之间中达到平衡。此广告片以轻松、诙谐的风格与调性，以浪漫爱情作为故事发展的核心，
+                        贴合薇婷脱毛膏的主要女性受众群体的心理及需求痛点，也与品牌理念相吻合。
+                    </p>
+                    <footer>《脱毛膏的创意广告》</footer>
+                </blockquote>
+                <!-- End of Testimonial-->
+
+                <!--User Testimonial-->
+                <blockquote class="col-3 testimonial classic">
+                    <div class="videolist" vpath="images/gallery-images/3-cover-1.jpg"
+                         ipath="video/3.mp4">
+                        <img src="images/gallery-images/3-cover-1.jpg"
+                             style="max-height:200px;border-radius:0px"/>
+                        <img src="img/play.png" class="videoed"/>
+                    </div>
+
+                    <q>当一位被判刑15年的教师出狱后，曾经的一切早已物是人非……</q>
+                        <p><b>【职能阐述】</b>我担任此短片的编导，侧重于运动镜头及机位的变化来突出表现主人公对如今社会的陌生及悲凉的心境，
+                            影片开始使用脚部等特写的跟镜头来为主人公形象塑造一种神秘感，为下一个镜头推移到主角面部的独白来造势。在主角回到原来的学校时，
+                            采用贴近地面的低角度运镜切入，增加画面的层次和动感，随后一个展示全景的拉镜头进一步表现了主角内心的孤独与不真实感；
+                            除了运镜的设计，也利用光影在主角面部的视觉效应渲染出主角的情绪起伏，主角面部越来越重的阴影也为整部短片增添了悲剧的色调。
+                        </p>
+                        
+                    <footer>《刑满释放》</footer>
+                    <!-- End of Testimonial-->
+                </blockquote>
+
+                    <!--User Testimonial-->
+                <blockquote class="col-3 testimonial classic">
+                    <div class="videolist" vpath="images/gallery-images/4-cover-1.jpg"
+                         ipath="video/4.mp4">
+                        <img src="images/gallery-images/4-cover-1.jpg"
+                             style="max-height:200px;border-radius:0px"/>
+                        <img src="img/play.png" class="videoed"/>
+                    </div>
+                    <q>爱情是想触碰却又缩回手，但爱情也是从这跌倒从那爬起来。</q>
+                    <p><b>【职能阐述】</b>我担任此短片的编导，其改编于获奖短片，在此基础上，侧重平行蒙太奇的剪辑，诙谐的反转增添了喜剧效果，
+                        写信与回忆的情节交替进行，也使人物的心理性格特征变得更丰富饱满；
+                        全程代入主角视线，多次写信情节的复现式蒙太奇出现，不断推进剧情也使最后主角的见异思迁更使观众意外；
+                    </p>
+                    <footer>《DEAR SUSIE》</footer>
+
+                </blockquote>
+                <!-- End of Testimonial-->
+
+                <!--User Testimonial-->
+                <blockquote class="col-3 testimonial classic">
+                    <div class="videolist" vpath="images/gallery-images/5-cover-1.jpg"
+                         ipath="video/5.mp4">
+                        <img src="images/gallery-images/5-cover-1.jpg"
+                             style="max-height:200px;border-radius:0px"/>
+                        <img src="img/play.png" class="videoed"/>
+                    </div>
+
+                    <q>一个失恋被甩的男人，一个忧郁难耐的仲夏夜，一杯啤酒，一包烟，还有……一把刀？</q>
+                    <p><b>【职能阐述】</b>我担任此短片的编导，侧重音效的灵活运用，利用人物的行动和音效的变化来营造出悬疑惊悚的氛围，
+                        制造错觉和设置反转从而讲述一个喜剧，全片仅靠少量的台词，将更多的信息通过增强的音效、投射的阴影和人物的行动来表达，
+                        在剪辑上利用错觉式蒙太奇，加强戏剧冲突和表现力；
+
+                    </p>
+                    <footer>《A MIDSUMMER NIGHT》</footer>
+                </blockquote>
+                <!-- End of Testimonial-->
+
+                <!--User Testimonial-->
+                <blockquote class="col-3 testimonial classic">
+                    <div class="videolist" vpath="images/gallery-images/6-cover-1.jpg"
+                         ipath="video/6.mp4">
+                        <img src="images/gallery-images/6-cover-1.jpg"
+                             style="max-height:200px;border-radius:0px"/>
+                        <img src="img/play.png" class="videoed"/>
+                    </div>
+
+                    <q>他是从小就被确诊为高位瘫痪的患者，如今他也是镇上唯一的中医，人们称呼他为板凳上的中医。</q>
+                        
+                        <p><b>【职能阐述】</b>我担任此纪录片的编剧、灯光、音乐职务，根据彭医生的自传，挖掘其中亮点，对纪录片进行整体策划编写。
+                            我采用低平的视角，抛开高亢的调子，明线暗线交织并行，推动所叙的事件发展。
+                            通过日常记录和深入访谈，表现彭医生对生活积极乐观的态度，但更令人感动的是一直支持并陪伴着他的母亲；
+                    </p>
+                    <footer>《板凳上的中医》</footer>
+                    <!-- End of Testimonial-->
+                </blockquote>
+                    <div class="videos"></div>
+                </div>
+            </div>
+
+        </aside>
+        <!--End of short_flim-->
+
+        <!--special_effect-->
+        <aside id="special_effect" class="scrollto text-center" data-enllax-ratio=".2">
+
+            <div class="row clearfix">
+
+                <div class="section-heading">
+                    <h3>SPECIAL EFFECT</h3>
+                    <h2 class="section-title">后期特效制作</h2>
+                </div>
+
+                <div>
+                    <!--User Testimonial-->
+                <blockquote class="col-3 testimonial classic">
+                    <div class="videolist" vpath="images/gallery-images/7-cover-1.jpg"
+                         ipath="video/7.mp4">
+                        <img src="images/gallery-images/7-cover-1.jpg"
+                             style="max-height:200px;border-radius:0px"/>
+                        <img src="img/play.png" class="videoed"/>
+                    </div>
+                    <q>使用<u>3d Max</u>人物和场景建模，<u>C4D</u>骨骼动作绑定，<u>Marvelous Designer</u>布料分解并动作匹配，
+                        最后<u>C4D</u>打灯<u>OC</u>渲染，最后加<u>C4D</u>流体字体特效结束。</q>
+                    <footer>C4D动画</footer>
+
+                </blockquote>
+                <!-- End of Testimonial-->
+
+                <!--User Testimonial-->
+                <blockquote class="col-3 testimonial classic">
+                    <div class="videolist" vpath="images/gallery-images/8-cover-1.jpg"
+                         ipath="video/8.mp4">
+                        <img src="images/gallery-images/8-cover-1.jpg"
+                             style="max-height:200px;border-radius:0px"/>
+                        <img src="img/play.png" class="videoed"/>
+                    </div>
+
+                    <q><u>MMD</u>人物制作，将3D人物与拍摄的实景进行合成，让3D人物走进现实，并做出一系列相匹配的特效，如粒子建成的城堡与流体特效。</q>
+                    <footer>实景合成动画</footer>
+                </blockquote>
+                <!-- End of Testimonial-->
+
+                <!--User Testimonial-->
+                <blockquote class="col-3 testimonial classic">
+                    <div class="videolist" vpath="images/gallery-images/9-cover-1.jpg"
+                         ipath="video/9.mp4">
+                        <img src="images/gallery-images/9-cover-1.jpg"
+                             style="max-height:200px;border-radius:0px"/>
+                        <img src="img/play.png" class="videoed"/>
+                    </div>
+
+                    <q>使用<u>DaVichi Resolve</u>对影视片段进行剪辑、调色，其中对特定区域等进行动态追踪并单独调试，灵活运用达芬奇为影视片段制造氛围。</q>
+                    <footer>达芬奇调色</footer>
+                    <!-- End of Testimonial-->
+                </blockquote>
+
+                    <!--User Testimonial-->
+                <blockquote class="col-3 testimonial classic">
+                    <div class="videolist" vpath="images/gallery-images/10-cover-1.jpg"
+                         ipath="video/10.mp4">
+                        <img src="images/gallery-images/10-cover-1.jpg"
+                             style="max-height:200px;border-radius:0px"/>
+                        <img src="img/play.png" class="videoed"/>
+                    </div>
+                    <q>使用<u>Nuke</u>进行影视后期合成，其中运用了Nuke抠像、动态追踪、三维多通道叠加合成技术等使镜头流畅真实。</q>
+                    <footer>Nuke合成</footer>
+
+                </blockquote>
+                <!-- End of Testimonial-->
+
+                <!--User Testimonial-->
+                <blockquote class="col-3 testimonial classic">
+                    <div class="videolist" vpath="images/gallery-images/11-cover-1.jpg"
+                         ipath="video/12.mp4">
+                        <img src="images/gallery-images/11-cover-1.jpg"
+                             style="max-height:200px;border-radius:0px"/>
+                        <img src="img/play.png" class="videoed"/>
+                    </div>
+
+                    <q>模仿苹果2016年新品发布会的快闪宣传片，主要使用<u>AE</u>，为山水民乐团制作出103秒快闪的招新宣传片。</q>
+                    <footer>AE快闪</footer>
+                </blockquote>
+                <!-- End of Testimonial-->
+
+                <!--User Testimonial-->
+                <blockquote class="col-3 testimonial classic">
+                    <div class="videolist" vpath="images/gallery-images/12-cover-1.jpg"
+                         ipath="video/11.mp4">
+                        <img src="images/gallery-images/12-cover-1.jpg"
+                             style="max-height:200px;border-radius:0px"/>
+                        <img src="img/play.png" class="videoed"/>
+                    </div>
+
+                    <q>使用<u>PS、AE</u>制作<u>MG</u>动画，用PS画出人物，用AE进行动画制作，其中也用AE画出简单的场景，主要侧重流畅的动画节奏。</q>
+                    <footer>MG动画</footer>
+                    <!-- End of Testimonial-->
+                </blockquote>
+                    
+                </div>
+            </div>
+
+        </aside>
+        <!--End of special_effect-->
+        
+        <!--Gallery-->
+        <aside id="gallery" class="row text-center scrollto clearfix" data-featherlight-gallery
+               data-featherlight-filter="a">
+
+            <a href="images/gallery-images/poster.jpg" data-featherlight="image" class="col-3 wow fadeIn"
+               data-wow-delay="0.1s"><img src="images/gallery-images/poster1.jpg" alt="Landing Page"/></a>
+            <a href="images/gallery-images/concept design.jpg" data-featherlight="image" class="col-3 wow fadeIn"
+               data-wow-delay="0.3s"><img src="images/gallery-images/digital painting1.jpg" alt="Landing Page"/></a>
+            <a href="images/gallery-images/keep.png" data-featherlight="image" class="col-3 wow fadeIn"
+               data-wow-delay="0.5s"><img src="images/gallery-images/keep1.jpg" alt="Landing Page"/></a>
+            
+        </aside>
+        <!--End of Gallery-->
+
+
+        <!--Clients-->
+        <section id="clients" class="scrollto clearfix">
+            <div class="row clearfix">
+
+                <div class="col-3">
+
+                    <div class="section-heading">
+                        <h3>COPYWRITING</h3>
+                        <h2 class="section-title">文案写作</h2>
+                        <p class="section-subtitle">《戴珍珠耳环的少女》《关于我母亲的一切》《阳光灿烂的日子》三部影片的赏析<br>
+                            《张中丞传后叙》古文赏析<br>
+                            对两个产品的数据分析，以拼多多和白熊官网为例
+                            </p>
+                    </div>
+
+                </div>
+
+                <div class="col-2-3">
+
+                    <a href="yingping.html" class="col-3">
+                        <img src="images/company-images/1.png" alt="Company"/>
+                        <div class="client-overlay"><span>Review</span></div>
+                    </a>
+                    <a href="yingping2.html" class="col-3">
+                        <img src="images/company-images/2.png" alt="Company"/>
+                        <div class="client-overlay"><span>Review</span></div>
+                    </a>
+                    <a href="yingping3.html" class="col-3">
+                        <img src="images/company-images/3.png" alt="Company"/>
+                        <div class="client-overlay"><span>Review</span></div>
+                    </a>
+                    <a href="yingping4.html" class="col-3">
+                        <img src="images/company-images/4.png" alt="Company"/>
+                        <div class="client-overlay"><span>Review</span></div>
+                    </a>
+                    <a href="yingping5.html" class="col-3">
+                        <img src="images/company-images/5.png" alt="Company"/>
+                        <div class="client-overlay"><span>Analysis</span></div>
+                    </a>
+                    <a href="yingping6.html" class="col-3">
+                        <img src="images/company-images/6.png" alt="Company"/>
+                        <div class="client-overlay"><span>Analysis</span></div>
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+        <!--End of Clients-->
+
+        <!--Pricing Tables-->
+        <section id="pricing" class="secondary-color text-center scrollto clearfix ">
+            <div class="row clearfix">
+
+                <div class="section-heading">
+                    <h3>THE END</h3>
+                    <h2 class="section-title">Thank you for your watching</h2>
+                </div>
+
+            </div>
+        </section>
+        <!--End of Pricing Tables-->
+
+    </main>
+    <!--End Main Content Area-->
+
+
+    <!--Footer-->
+    <footer id="landing-footer" class="clearfix">
+        <div class="row clearfix">
+
+            <a href="https://beian.miit.gov.cn/">豫ICP备2021027664号</a>
+
+        </div>
+    </footer>
+    <!--End of Footer-->
+
+</div>
+
+<!-- Include JavaScript resources -->
+<script src="js/jquery.1.8.3.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/featherlight.min.js"></script>
+<script src="js/featherlight.gallery.min.js"></script>
+<script src="js/jquery.enllax.min.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.stickyNavbar.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/images-loaded.min.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script src="js/site.js"></script>
+
+
+<style>
+    .copyrights {
+        text-indent: -9999px;
+        height: 0;
+        line-height: 0;
+        font-size: 0;
+        overflow: hidden;
+    }
+</style>
+<script type="text/javascript">
+    $('.videolist').each(function () { //遍历视频列表
+        $(this).hover(function () { //鼠标移上来后显示播放按钮
+            $(this).find('.videoed').show();
+        }, function () {
+            $(this).find('.videoed').hide();
+        });
+        $(this).click(function () { //这个视频被点击后执行
+            var img = $(this).attr('vpath');//获取视频预览图
+            var video = $(this).attr('ipath');//获取视频路径
+            $('.videos').html("<video id=\"video\" poster='" + img + "' style='width: 640px' src='" + video + "' preload=\"auto\" controls=\"controls\" autoplay=\"autoplay\"></video><img onClick=\"close1()\" class=\"vclose\" src=\"img/gb.png\" width=\"25\" height=\"25\"/>");
+            $('.videos').show();
+        });
+    });
+
+    function close1() {
+        var v = document.getElementById('video');//获取视频节点
+        $('.videos').hide();//点击关闭按钮关闭暂停视频
+        v.pause();
+        $('.videos').html();
+    }
+</script>
+
+</body>
+</html>
